@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Send Bug Report</item>
+        <item>Rate Us</item>
+        <item>Share App</item>
+        <item>Privacy Policy</item>
+        <item/>
+        <item>Version</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_email</item>
+        <item>@drawable/btn_rate</item>
+        <item>@drawable/btn_share</item>
+        <item>@drawable/btn_privacy</item>
+        <item>0</item>
+        <item>0</item>
+    </array>
+
+</resources>

@@ -1,0 +1,312 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+
+
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;KIKI Pro Video Editor &rdquo; Documentation by &ldquo; RiderCode &rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Technical Documentation for " KIKI Pro Video Editor - With Subscription Based " &rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 17/2/2021<br>
+                                        Update: 19/2/2021<br>
+					By: RIder Code <br>
+					Email: <a href="rider.dev.coder@gmail.com">rider.dev.coder@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our item. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/ridercode">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#Import">Import project in Android Studio </a></li>
+			<li><a href="#Changepackage">Change package name</a></li>
+			<li><a href="#changename">Change app Name</a></li>
+			<li><a href="#changeapp">Change app icon </a></li>
+			<li><a href="#addadmob">Add Admob Id</a></li>
+			<li><a href="#Firebase">Setup Firebase</a></li> 
+			<li><a href="#Subscription">Setup Subscription</a></li>     
+		</ol>
+		
+		<hr>
+		
+		<h3 id="Import"><strong>A) Import project in Android Studio </strong> - <a href="#toc">top</a></h3>
+		<p>  &bull;  Open Android Studio and Open Existing Project.</p>
+		
+		<img src="assets/images/1.jpg" alt="Import" />
+
+          <br>
+		  <br>
+
+
+		<p>  &bull;  Select your Project File (Source code).</p>
+		
+
+		<br>
+
+		<img src="assets/images/2.png" alt="Import" />
+
+		
+		<br>
+		<br>
+		<br>
+		<hr>
+		<h3 id="Changepackage"><strong>B) Change package name  </strong> - <a href="#toc">top</a></h3>
+
+		<p>For example, if you want to change com.example.app  to  Com.awesome.appthen:</p>
+
+		<p>1.In your Project pane, click on the little gear icon. </p>
+
+		<p> 2.Uncheck / De-select the Compact Empty Middle Packagesoption</p>
+
+		<br>
+
+		<img src="assets/images/3.png" alt="Import" width="700" height="362" />
+
+         <br>
+
+
+		<p><span style="line-height:112%;font-size:14px;">3. Your package directory will now be broken up in individual directories&nbsp;</span></p>
+    <p><span style="line-height:112%;color:#242729;font-size:16px;">4.</span><span style='line-height:112%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:#242729;'>&nbsp;</span><span style='line-height:112%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;'>Individually select each directory you want to rename, and:&nbsp;</span>&nbsp; &nbsp;&nbsp;</p>
+    <ul style="list-style-type: undefined;">
+        <li><span style='line-height:112%;font-family:"Arial",sans-serif;'>Right-click it&nbsp;</span>&nbsp; &nbsp;&nbsp;</li>
+        <li><span style='line-height:107%;font-family:"Arial",sans-serif;'>Select&nbsp;</span><span style='line-height:107%;font-family:"Arial",sans-serif;'>Refactor</span><span style='line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span>&nbsp; &nbsp;&nbsp;</li>
+        <li><span style='line-height:112%;font-family:"Arial",sans-serif;'>Click on&nbsp;</span><span style='line-height:112%;font-family:"Arial",sans-serif;'>Rename</span><span style='line-height:112%;font-family:"Arial",sans-serif;'>&nbsp;</span>&nbsp; &nbsp;&nbsp;</li>
+        <li><span style='line-height:112%;font-family:"Arial",sans-serif;'>In the Pop-up dialog, click on&nbsp;</span><span style="line-height:112%;font-size:12px;">Rename Package</span><span style="line-height:112%;font-size:14px;">&nbsp;instead of Rename Directory&nbsp;</span>&nbsp; &nbsp;&nbsp;</li>
+        <li><span style='line-height:112%;font-family:"Arial",sans-serif;'>Enter the new name and hit <strong>Refactor</strong>&nbsp;</span>&nbsp; &nbsp;&nbsp;</li>
+        <li><span style='line-height:112%;font-family:"Arial",sans-serif;'>Click <strong>Do Refactor</strong> in the bottom&nbsp;</span>&nbsp; &nbsp;&nbsp;</li>
+        <li><span style='line-height:112%;font-family:"Arial",sans-serif;'>Allow a minute to let Android Studio update all changes&nbsp;</span>&nbsp; &nbsp;&nbsp;</li>
+        <li><em><span style="line-height:107%;font-size:14px;">Note: When renaming&nbsp;</span></em><em><span style="line-height:107%;font-size:12px;">com</span></em><em><span style='line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;in Android Studio, it might give a warning. In such case, select</span></em><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:10.5pt;color:#242729;'>&nbsp;<strong>Rename&nbsp;</strong></span> <strong><span style='font-size:14px;line-height:107%;font-family:"Arial",sans-serif;color:#242729;'>All</span></strong><span style='font-size:14px;line-height:107%;font-family:"Arial",sans-serif;color:#242729;'>&nbsp;</span>&nbsp; &nbsp;&nbsp;</li>
+    </ul>
+    <p><br></p>
+
+		<img src="assets/images/4.png" alt="Import"  width="770" height="362" />
+
+
+           <br>
+		   <br>
+
+		<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;'>
+			<ol style="margin-bottom:0cm;list-style-type: undefined;margin-left:8px;">
+				<li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;'><span style="line-height: 112%; font-size: 16px;">Now open your <strong><em>Gradle Build File</em></strong> (</span><span style="font-size: 16px;"><span style='line-height:112%;font-family:"Arial",sans-serif;'>build.gradle</span><span style='line-height: 112%; font-family: "Arial", sans-serif; color: rgb(36, 39, 41);'>&nbsp;- Usually&nbsp;</span><span style="line-height: 112%;">app&nbsp;or&nbsp;mobile). Update the&nbsp;applicationId&nbsp;in the&nbsp;defaultConfig&nbsp;to your new Package Name and Sync Gradle, if it hasn&apos;t already been updated automatically:&nbsp;</span>&nbsp; &nbsp; </span></li>
+			</ol>
+		</div>
+		<br>
+
+		<br>
+		<img src="assets/images/5.jpg" alt="Import" width=""/>
+
+		<br>
+		<br>
+		<ol style="list-style-type: undefined;margin-left:8px;">
+			<li><span style="line-height:112%;font-size:14px;">You may need to change the&nbsp;</span><span style='line-height:112%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:9.0pt;color:#242729;'>package=</span><span style='line-height:112%;font-family:"Arial",sans-serif;'>&nbsp;attribute in your manifest.&nbsp;</span>&nbsp; &nbsp;&nbsp;</li>
+			<li><span style="line-height:112%;font-size:14px;">Clean and Rebuild.&nbsp;</span>&nbsp; &nbsp;</li>
+		</ol>
+
+
+
+		<hr>
+		
+		<h3 id="changename"><strong>C) Change app Name</strong> - <a href="#toc">top</a></h3>
+		
+		<body>
+			<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:.7pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span>&nbsp; &nbsp;&nbsp;</p>
+			<p style='margin-top:0cm;margin-right:21.0pt;margin-bottom:.15pt;margin-left:-2.4pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;text-indent:-.5pt;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp; &nbsp;For Change App Name Go &gt; app &gt; res &gt; value &gt; string.xml&nbsp;</span>&nbsp; &nbsp;&nbsp;</p>
+			<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:.7pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span>&nbsp; &nbsp;&nbsp;</p>
+			<p style='margin-top:0cm;margin-right:21.0pt;margin-bottom:.15pt;margin-left:37.2pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;text-indent:-.5pt;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;string name=&quot;app_name&quot;&gt;<strong>YOUR APP NAME</strong>&lt;/string&gt;&nbsp;</span>&nbsp; &nbsp;&nbsp;</p>
+		</body>
+		
+		<br>
+		<img src="assets/images/app_name.PNG" alt="Import" width="770dp" />
+
+		<br>
+
+
+
+
+		<br>
+
+
+
+
+
+		<br>
+		
+		<hr>
+		
+		<h3 id="changeapp"><strong>D) Change app icon   </strong> - <a href="#toc">top</a></h3>
+		
+		<ul>
+			<li style='margin-top: 0cm; margin-right: 21pt; margin-bottom: 2.25pt; line-height: 107%; font-size: 15px; font-family: "Calibri", sans-serif; color: black; text-indent: -0.5pt;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;For Change App Icon Go &gt; app &gt; res &gt; drawable &gt; logo.png &nbsp;</span>&nbsp; &nbsp;</li>
+			<li style='margin-top: 0cm; margin-right: 0cm; margin-bottom: 0cm; line-height: 107%; font-size: 15px; font-family: "Calibri", sans-serif; color: black; text-indent: -0.5pt;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;For Change Splash icon Go &gt;&nbsp;</span>res &gt; drawablde logo.png &nbsp; &nbsp;</li>
+			<li style='margin-top: 0cm; margin-right: 21pt; margin-bottom: 0.15pt; line-height: 107%; font-size: 15px; font-family: "Calibri", sans-serif; color: black; text-indent: -0.5pt;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;Keep your icon name rocket.png and paste in drawable folder then show popup click on overwrite option.&nbsp;</span>&nbsp; &nbsp;&nbsp;</li>
+		</ul>
+		
+			
+		<img src="assets/images/7.jpg" alt="Import" />
+
+
+			
+		<br>
+
+		<br>
+
+
+		<hr>
+		
+		<h3 id="addadmob"><strong>E) Change Admob Ads I’d    </strong> - <a href="#toc">top</a></h3>
+		
+		
+
+
+		<span style="font-size: 18px;">For Change ads I&apos;d Go to Firebase &gt; Realtime Database and change the ads I&apos;d</span><br>
+		
+		<br>
+		<br>
+	
+
+       
+
+
+
+
+
+
+
+		<br>
+
+		<br>
+		
+		<hr>
+
+
+
+
+
+		<h3 id="Firebase"><strong>F) Setup Firebase Configuration.     </strong> - <a href="#toc">top</a></h3>
+		
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:2.0pt;margin-left:.7pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;'><strong><span style="font-size:19px;line-height:107%;">At the&nbsp;</span></strong><a href="https://firebase.google.com/"><strong><span style="font-size:19px;line-height:107%;color:#0563C1;">https://firebase.google.com/</span></strong></a><a href="https://firebase.google.com/"><strong><span style="font-size:19px;line-height:107%;color:black;text-decoration:none;">&nbsp;</span></strong></a><strong><span style="font-size:19px;line-height:107%;">link click to the &ldquo;Go to console&rdquo; button.&nbsp;</span></strong></p>
+
+
+		<br>
+		<br>
+	
+
+        <img src="assets/images/9.png" alt="Import" />
+
+
+
+		<body>
+			<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:.45pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;text-indent:-.5pt;'><span style="font-size:16px;line-height:107%;">After That, Put your project name here. And&nbsp;</span>Select your Country here. And Click on Create Project.</p>
+			<p style='margin-top:0cm;margin-right:0cm;margin-bottom:2.15pt;margin-left:.45pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;text-indent:-.5pt;'>And After that, Go to Project Setting, And select Android Project.</p>
+		</body>
+
+		<br>
+		
+
+		<img src="assets/images/10.png" alt="Import" />
+
+
+		<br>
+
+
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:.45pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;text-indent:-.5pt;'><span style="font-size:19px;line-height:107%;">After that, Put your Package name and click on Register app. &nbsp;</span></p>
+
+      <br>
+
+
+		<img src="assets/images/11.png" alt="Import" />
+
+			
+		
+		<br>
+
+
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:.45pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;color:black;text-indent:-.5pt;'><span style="font-size:19px;line-height:107%;">After that, Download google-service.json file and paste it in in inside the project. &nbsp;</span></p>
+
+
+
+
+		<br>
+
+		<br>
+		<br>
+		<br>
+
+		<h3 id="Subscription"><strong>G) Setup In-App-Subscription. </strong> - <a href="#toc">top</a></h3>
+		
+		<p><span style="font-size: 18px;">Go to You Google Play Console &gt; &nbsp;monetization-setup &nbsp;&gt; After that Copy the base64 Key</span></p>
+		
+		
+		<img src="assets/images/12.png" alt="Import" width="730dp"/>
+		
+		<p><span style="font-size: 18px;">After that Go to Config &gt; and Paste your Base 64 Key on key place.</span></p>
+		<p><span style="font-size: 18px;">After that Go to Products and Create Your Subscription and after that Go to Config and Put the Subscription I&apos;d</span></p>
+		<br>
+	
+
+        <img src="assets/images/14.png" alt="Import" width="730dp"/>
+
+
+
+		
+
+<!--new-->
+
+
+
+		
+
+
+
+
+<br>
+
+<br>
+
+<hr>
+
+
+
+
+
+
+
+
+			
+<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+<p class="append-bottom alt large"><strong> RiderCode</strong></p>
+<p><a href="#toc">Go To Table of Contents</a></p>
+
+<hr class="space">
+</div><!-- end div .container -->
+</body>
+</html>

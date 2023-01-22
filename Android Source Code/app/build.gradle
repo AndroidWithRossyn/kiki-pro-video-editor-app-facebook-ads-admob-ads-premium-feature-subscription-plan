@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
+    ndkVersion "21.1.6352462"
+
+    defaultConfig {
+        applicationId "com.ridercode.provideo_editor"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+		multiDexEnabled true
+
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.firebase:firebase-database:19.6.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.10'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.xw.repo:bubbleseekbar:3.20'
+    implementation 'com.android.support:multidex:1.0.3'
+
+    implementation 'com.ogaclejapan.smarttablayout:library:1.7.0@aar'
+
+    implementation 'com.ogaclejapan.smarttablayout:utils-v4:1.7.0@aar'
+
+    implementation 'com.zcw:togglebutton-library:1.0.0'
+    implementation 'com.github.lawloretienne:discreteslider:0.0.9'
+
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'com.hovans.dynamicgrid:dynamicgrid:1.0.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.github.yukuku:ambilwarna:2.0.1'
+    implementation 'com.edmodo:cropper:1.0.0'
+    implementation 'com.writingminds:FFmpegAndroid:0.3.2'
+    implementation 'com.arthenica:mobile-ffmpeg-full-gpl:4.4.LTS'
+
+    implementation 'com.google.android.gms:play-services-ads:19.6.0'
+    implementation 'com.github.iammert:ScalingLayout:1.2.1'
+    implementation 'com.eyalbira.loadingdots:loading-dots:1.0.2'
+    implementation 'com.writingminds:FFmpegAndroid:0.3.2'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+
+    implementation 'com.yarolegovich:sliding-root-nav:1.1.1'
+    implementation 'com.facebook.android:audience-network-sdk:5.11.0'
+    implementation 'com.anjlab.android.iab.v3:library:1.0.44'
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation "androidx.lifecycle:lifecycle-viewmodel:2.2.0"
+}

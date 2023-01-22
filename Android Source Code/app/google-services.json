@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "866640136313",
+    "project_id": "kiki-video-editor",
+    "storage_bucket": "kiki-video-editor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866640136313:android:84b71496b862c535242ca8",
+        "android_client_info": {
+          "package_name": "com.ridercode.provideo_editor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866640136313-fpl0pchdtcnfdvte4l21t36c0891til7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG_oFT5kM-RAYIn4JmstIR2myBlx_U9Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866640136313-fpl0pchdtcnfdvte4l21t36c0891til7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
